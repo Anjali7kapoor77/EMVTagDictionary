@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EMVTagsDictionary</string>
+    <string name="emv_tags">EMV Tags</string>
+    <string name="search_by_tags">Search by tags</string>
+    <string name="length_Tag">Length %s</string>
+    <string name="description">Description %s</string>
+    <string name="value_of_tag">Value %s</string>
+    <string name="emv_dictionary">EMV Dictionary</string>
+</resources>

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "5F20",
+    "length": "up to 26",
+    "description": "Cardholder Name",
+    "value": "JOHN DOE"
+  },
+  {
+    "tag": "5F24",
+    "length": "3",
+    "description": "Application Expiration Date (YYMMDD)",
+    "value": "251231"
+  },
+  {
+    "tag": "5F25",
+    "length": "3",
+    "description": "Application Effective Date (YYMMDD)",
+    "value": "230101"
+  },
+  {
+    "tag": "5F28",
+    "length": "2",
+    "description": "Issuer Country Code",
+    "value": "0840"
+  },
+  {
+    "tag": "5F2A",
+    "length": "2",
+    "description": "Transaction Currency Code",
+    "value": "0840"
+  },
+  {
+    "tag": "5F30",
+    "length": "1",
+    "description": "Service Code",
+    "value": "201"
+  },
+  {
+    "tag": "5F34",
+    "length": "1",
+    "description": "Application Primary Account Number (PAN) Sequence Number",
+    "value": "01"
+  },
+  {
+    "tag": "82",
+    "length": "2",
+    "description": "Application Interchange Profile",
+    "value": "1800"
+  },
+  {
+    "tag": "84",
+    "length": "up to 16",
+    "description": "Dedicated File (DF) Name",
+    "value": "A0000000041010"
+  },
+  {
+    "tag": "8A",
+    "length": "1",
+    "description": "Authorization Response Code",
+    "value": "00"
+  },
+  {
+    "tag": "91",
+    "length": "up to 16",
+    "description": "Issuer Authentication Data",
+    "value": "1A2B3C4D5E6F7G8H"
+  },
+  {
+    "tag": "95",
+    "length": "5",
+    "description": "Terminal Verification Results (TVR)",
+    "value": "8000008000"
+  },
+  {
+    "tag": "9A",
+    "length": "3",
+    "description": "Transaction Date (YYMMDD)",
+    "value": "241119"
+  },
+  {
+    "tag": "9C",
+    "length": "1",
+    "description": "Transaction Type",
+    "value": "00"
+  },
+  {
+    "tag": "9F02",
+    "length": "6",
+    "description": "Amount, Authorized (Numeric)",
+    "value": "000000010000"
+  },
+  {
+    "tag": "9F03",
+    "length": "6",
+    "description": "Amount, Other (Numeric)",
+    "value": "000000000000"
+  },
+  {
+    "tag": "9F09",
+    "length": "2",
+    "description": "Application Version Number",
+    "value": "0001"
+  },
+  {
+    "tag": "9F1A",
+    "length": "2",
+    "description": "Terminal Country Code",
+    "value": "0840"
+  },
+  {
+    "tag": "9F27",
+    "length": "1",
+    "description": "Cryptogram Information Data",
+    "value": "80"
+  },
+  {
+    "tag": "9F36",
+    "length": "2",
+    "description": "Application Transaction Counter (ATC)",
+    "value": "0025"
+  }
+]
