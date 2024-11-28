@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.emvtagsdictionary"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.emvtagsdictionary"
@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.crashlytics.buildtools)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -68,6 +69,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.gson)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.firebase.crashlytics)// Replace with the latest version
 
 
 
